@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		015671821A7B88A400396C5D /* ClosedLoopStepper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClosedLoopStepper.h; sourceTree = "<group>"; };
+		015671831A7B88B600396C5D /* ClosedLoopStepper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClosedLoopStepper.cpp; sourceTree = "<group>"; };
+		015671841A7CE24200396C5D /* StepperSpeedControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StepperSpeedControler.h; sourceTree = "<group>"; };
+		015671851A7CE25400396C5D /* StepperSpeedControler.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StepperSpeedControler.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0156717B1A7B87E000396C5D = {
+			isa = PBXGroup;
+			children = (
+				015671851A7CE25400396C5D /* StepperSpeedControler.cpp */,
+				015671841A7CE24200396C5D /* StepperSpeedControler.h */,
+				015671831A7B88B600396C5D /* ClosedLoopStepper.cpp */,
+				015671821A7B88A400396C5D /* ClosedLoopStepper.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0156717C1A7B87E000396C5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 0156717F1A7B87E000396C5D /* Build configuration list for PBXProject "ClosedLoopStepper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0156717B1A7B87E000396C5D;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		015671801A7B87E000396C5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		015671811A7B87E000396C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0156717F1A7B87E000396C5D /* Build configuration list for PBXProject "ClosedLoopStepper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015671801A7B87E000396C5D /* Debug */,
+				015671811A7B87E000396C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0156717C1A7B87E000396C5D /* Project object */;
+}
